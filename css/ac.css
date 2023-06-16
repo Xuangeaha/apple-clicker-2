@@ -1,0 +1,46 @@
+.frame_left {
+    text-align: center;
+    float: left;
+    line-height: 1.5em;
+    width: 66%;
+    margin-top: 10%;
+}
+
+.apple {
+    font-size: larger;
+    height: 6em;
+    width: 6em;
+}
+
+.frame_right {
+    float: right;
+    width: 30%;
+}
+
+.divider {
+    position: absolute;
+    width: 1px;
+    height: 400px;
+    background: darkgray;
+    margin-left: 65%;
+}
+
+.title_building {
+    font-weight: 550;
+    margin-bottom: 0.8em;
+    font-size: 22px;
+    text-align: center;
+}
+
+.building {
+    line-height: 1.4em
+}
+
+.building_buy_button {
+    line-height: 1.6em
+}
+
+.building_information {
+    margin-top: 0.5em;
+    text-indent: 1.2em;
+}

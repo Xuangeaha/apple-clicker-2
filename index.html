@@ -5,22 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/ac.css">
     <script src="src/main.js"></script>
-    <title>Apple Clicker 2</title>
+    <title>苹果点点乐 2</title>
 </head>
 
 <body>
-    <div id="information"></div>
-    <hr>
-    <button name="Apple" id="button_apple" type="button" onclick="addApple()">苹果</button>
-    <div id="apple_amount"></div>
-    <div id="apple_per_click"></div>
-    <div id="apple_per_second"></div>
-    <button name="Cursor" id="button_buy_cursor" type="button" onclick="buyCursor()">购买 鼠标指针 × 1</button>
-    <div id="cursor_amount"></div>
-    <div id="cursor_price"></div>
-    <div id="cursor_contribute"></div>
-
+    <div id="header">
+        <h2>苹果点点乐</h2>
+    </div>
+    <div id="content">
+        <div class="sect0">
+            <div class="sectionbody">
+                <div class="paragraph">
+                    <div class="information">
+                        <hr>
+                        <div id="information"></div>
+                        <hr>
+                    </div>
+                    <div class="frame_left">
+                        <button class="apple" name="Apple" id="button_apple" type="button" onclick="addApple()">苹果</button>
+                        <div id="apple_amount"></div>
+                        <div id="apple_per_click"></div>
+                        <div id="apple_per_second"></div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="frame_right">
+                        <div class="title_building">
+                            建筑商店
+                            <hr>
+                        </div>
+                        <div class="building">
+                            <button class="building_buy_button" name="Cursor" id="button_buy_cursor" type="button"
+                                onclick="buyCursor()">购买 鼠标指针 × 1</button>
+                            <div class="building_information">
+                                <div id="cursor_amount"></div>
+                                <div id="cursor_price"></div>
+                                <div id="cursor_contribute"></div>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 <script src="src/refresh.js"></script>
