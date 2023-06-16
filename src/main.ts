@@ -34,6 +34,7 @@ function buyCursor(): void {
     if (apple_amount - cursor_price >= 0) {
         cursor_amount += 1;
         apple_amount -= cursor_price;
+        information = "您已购买 鼠标指针 × 1。"
     } else {
         information = "你没有足够的苹果来购买 鼠标指针。"
     }
