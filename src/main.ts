@@ -46,11 +46,11 @@ setInterval(contribute, 100);
 // 各建筑贡献递归计算
 function clickContribute(): void {
     apple_per_click = 1 +
-        0.05 * cursor_amount +
-        0.1 * basket_amount +
-        0.4 * grandpa_amount +
-        1 * tree_amount +
-        3 * garden_amount;
+        0.03 * cursor_amount +
+        0.05 * basket_amount +
+        0.1 * grandpa_amount +
+        0.4 * tree_amount +
+        1 * garden_amount;
 };
 
 setInterval(clickContribute, 100);

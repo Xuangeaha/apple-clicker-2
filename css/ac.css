@@ -25,9 +25,9 @@
 .divider {
     position: absolute;
     width: 1px;
-    height: 650px;
+    height: 100%;
     background: #dddddf;
-    margin-left: 61%;
+    margin-left: 61.5%;
 }
 
 .frame_right {
@@ -35,18 +35,21 @@
     width: 35%;
 }
 
+.category_title {
+    display: flex;
+    justify-content: center;
+}
+
 .title_building {
+    font-size: 22px;
     font-weight: 550;
     margin-top: 0.3em;
-    text-indent: 0.4em;
-    margin-bottom: 0.6em;
-    font-size: 22px;
-    text-align: left;
+    text-indent: 0.3em;
+    text-align: center;
 }
 
 .title_building_icon {
-    margin-left: 4.2em;
-    width: 35px;
+    height: 35px;
     float: left;
 }
 
@@ -71,13 +74,12 @@
 }
 
 .amount {
-    position: absolute;
+    display: flex;
     float: right;
     font-size: 45px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 0.3em;
     margin-right: 0.4em;
-    text-indent: 5.7em;
 }
 
 .price {
