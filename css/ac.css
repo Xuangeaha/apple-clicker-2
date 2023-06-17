@@ -38,14 +38,13 @@
 .title_building {
     font-weight: 550;
     margin-top: 0.3em;
-    margin-left: 0.8em;
+    text-indent: 0.4em;
     margin-bottom: 0.6em;
     font-size: 22px;
-    text-align: center;
+    text-align: left;
 }
 
 .title_building_icon {
-    position: absolute;
     margin-left: 4.2em;
     width: 35px;
     float: left;
