@@ -6,7 +6,7 @@
     text-align: center;
     float: left;
     line-height: 1.5em;
-    width: 66%;
+    width: 62%;
     margin-top: 10%;
 }
 
@@ -25,29 +25,44 @@
 .divider {
     position: absolute;
     width: 1px;
-    height: 400px;
+    height: 650px;
     background: #dddddf;
-    margin-left: 66%;
+    margin-left: 61%;
 }
 
 .frame_right {
     float: right;
-    width: 30%;
+    width: 35%;
 }
 
 .title_building {
     font-weight: 550;
     margin-top: 0.3em;
+    margin-left: 0.8em;
     margin-bottom: 0.6em;
     font-size: 22px;
     text-align: center;
+}
+
+.title_building_icon {
+    position: absolute;
+    margin-left: 4.2em;
+    width: 35px;
+    float: left;
 }
 
 .building {
     line-height: 1.3em
 }
 
+.building_icon {
+    float: left;
+    margin: 0.3em 0.3em 0.3em 0.3em;
+    width: 42px;
+}
+
 .building_buy_button {
+    position: relative;
     line-height: 1.6em
 }
 
@@ -57,19 +72,20 @@
 }
 
 .amount {
+    position: absolute;
     float: right;
     font-size: 45px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 0.3em;
     margin-right: 0.4em;
-    text-indent: 1.2em;
+    text-indent: 5.7em;
 }
 
 .price {
     margin-top: 0.3em;
-    text-indent: 1.2em;
+    text-indent: 0.3em;
 }
 
 .contribute {
-    text-indent: 1.2em;
+    text-indent: 0.3em;
 }
